@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{background-color: rgb(97, 59, 3); height: 100vh;}
+
+nav{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: dimgray;
+    position: fixed;
+    width: 100%;
+} nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+} nav > ul > li > a,img{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* section bölüm */
+main{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    color: white;
+    padding: 0.5rem;
+    width: 40%;
+    text-align: center;
+    border: 2px solid chartreuse;
+}
